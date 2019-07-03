@@ -1,14 +1,14 @@
 import React from  'react';
-import Card from './User';
+import UserCard from './User';
 
+// Map users into Users by passing details as props
 const UserList = ({ users }) => {
- 
     return (
         <div>
             {
                 users.map((user, i) => {
                     return (
-                        <Card
+                        <UserCard
                             key={i}
                             id={users[i].id}
                             name={users[i].name}

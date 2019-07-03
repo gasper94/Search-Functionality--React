@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+// Creates search box and accepts prop searchCahnge
 const SearchBox =  ({ searchChange}) =>{
     return (
         <div className='pa2'>
